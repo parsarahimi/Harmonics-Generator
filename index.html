@@ -155,7 +155,7 @@ slider3.oninput = function() {
   // (Note: the exact output may be browser-dependent)
   }
   output.innerHTML = this.value;
-  phase[2] = parseFloat(this.value/10000*Math.PI);
+  phase[2] = parseFloat(this.value/10000*Math.PI*2);
   real[2] = amp[2]*Math.sin(phase[2]);
   imag[2] = amp[2]*Math.cos(phase[2]);
   var wave = ac.createPeriodicWave(real, imag, { disableNormalization: true });
@@ -187,7 +187,7 @@ slider5.oninput = function() {
   // (Note: the exact output may be browser-dependent)
   }
   output.innerHTML = this.value;
-  phase[3] = parseFloat(this.value/10000*Math.PI);
+  phase[3] = parseFloat(this.value/10000*Math.PI*2);
   real[3] = amp[3]*Math.sin(phase[3]);
   imag[3] = amp[3]*Math.cos(phase[3]);
   var wave = ac.createPeriodicWave(real, imag, { disableNormalization: true });
@@ -219,7 +219,7 @@ slider7.oninput = function() {
   // (Note: the exact output may be browser-dependent)
   }
   output.innerHTML = this.value;
-  phase[4] = parseFloat(this.value/10000*Math.PI);
+  phase[4] = parseFloat(this.value/10000*Math.PI*2);
   real[4] = amp[4]*Math.sin(phase[4]);
   imag[4] = amp[4]*Math.cos(phase[4]);
   var wave = ac.createPeriodicWave(real, imag, { disableNormalization: true });
@@ -251,7 +251,7 @@ slider9.oninput = function() {
   // (Note: the exact output may be browser-dependent)
   }
   output.innerHTML = this.value;
-  phase[5] = parseFloat(this.value/10000*Math.PI);
+  phase[5] = parseFloat(this.value/10000*Math.PI*2);
   real[5] = amp[5]*Math.sin(phase[5]);
   imag[5] = amp[5]*Math.cos(phase[5]);
   var wave = ac.createPeriodicWave(real, imag, { disableNormalization: true });
@@ -283,7 +283,7 @@ slider11.oninput = function() {
   // (Note: the exact output may be browser-dependent)
   }
   output.innerHTML = this.value;
-  phase[6] = parseFloat(this.value/10000*Math.PI);
+  phase[6] = parseFloat(this.value/10000*Math.PI*2);
   real[6] = amp[6]*Math.sin(phase[6]);
   imag[6] = amp[6]*Math.cos(phase[6]);
   var wave = ac.createPeriodicWave(real, imag, { disableNormalization: true });
@@ -315,7 +315,7 @@ slider13.oninput = function() {
   // (Note: the exact output may be browser-dependent)
   }
   output.innerHTML = this.value;
-  phase[7] = parseFloat(this.value/10000*Math.PI);
+  phase[7] = parseFloat(this.value/10000*Math.PI*2);
   real[7] = amp[7]*Math.sin(phase[7]);
   imag[7] = amp[7]*Math.cos(phase[7]);
   var wave = ac.createPeriodicWave(real, imag, { disableNormalization: true });
